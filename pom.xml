@@ -22,7 +22,7 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 
 		<!-- Spring dependencies -->
 		<dependency>
@@ -37,21 +37,24 @@
 			<version>4.1.7.RELEASE</version>
 		</dependency>
 
-		
-
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>4.1.7.RELEASE</version>
 		</dependency>
 
-	
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<finalName>HolaMundoSpring</finalName>
 
 		<plugins>
-			
+
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>

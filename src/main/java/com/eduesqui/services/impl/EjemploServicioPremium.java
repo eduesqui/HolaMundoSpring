@@ -8,7 +8,7 @@ public class EjemploServicioPremium implements IEjemploServicio{
 
 	@Override
 	public String saluda(String nombre) {
-		return "Buen dias Señor , " + nombre + " En que puedo servirle?";
+		return "Buen dias Sr " + nombre + " En que puedo servirle?";
 	}
 
 }
