@@ -14,10 +14,5 @@ public class SpringContext {
 		context =  new ClassPathXmlApplicationContext("classpath:appContext.xml");
 	}
 
-	/*
-	public ClassPathXmlApplicationContext getContext(){
-		ClassPathXmlApplicationContext context =  new ClassPathXmlApplicationContext("classpath:appContext.xml");
-		return context;
-	}
-	*/
+	
 }
