@@ -26,15 +26,15 @@ public class Inicio  {
 	 */
 	public static void main(String[] args){
 		//ConfiguracionSpring configuracionSpring = new ConfiguracionSpring();
-		log.debug("Inicio");
+		log.debug("Start");
 		ClassPathXmlApplicationContext context;
 		context = SpringContext.context;
 		IEjemploServicio servicio =(IEjemploServicio) context.getBean("ejemploServicio");
-		log.debug("Instanciando servicio estandar (bean:ejemploServicio) ");
-		log.debug(servicio.saluda("eduesqui"));
+		log.debug("Instance of standard service (bean:ejemploServicio) ");
+		log.debug(servicio.saluda("This is a standard service"));
 		servicio =(IEjemploServicio) context.getBean("ejemploServicioPremium");
-		log.debug("Instanciando servicio premium (bean:ejemploServicioPremium) ");
-		log.debug(servicio.saluda("eduesqui"));
+		log.debug("Instance of  premium service (bean:ejemploServicioPremium) ");
+		log.debug(servicio.saluda("This is a premium service"));
 		
 	}
 	
