@@ -8,7 +8,7 @@ public class EjemploServicio implements IEjemploServicio{
 
 	@Override
 	public String saluda(String nombre) {
-		return "Hola, " + nombre + " Que onda?";
+		return "Hello, " + nombre + "This is a standard service";
 	}
 
 }

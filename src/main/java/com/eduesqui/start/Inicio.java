@@ -31,10 +31,10 @@ public class Inicio  {
 		context = SpringContext.context;
 		IEjemploServicio servicio =(IEjemploServicio) context.getBean("ejemploServicio");
 		log.debug("Instance of standard service (bean:ejemploServicio) ");
-		log.debug(servicio.saluda("This is a standard service"));
+		log.debug(servicio.saluda("eduesqui"));
 		servicio =(IEjemploServicio) context.getBean("ejemploServicioPremium");
 		log.debug("Instance of  premium service (bean:ejemploServicioPremium) ");
-		log.debug(servicio.saluda("This is a premium service"));
+		log.debug(servicio.saluda("eduesqui"));
 		
 	}
 	
